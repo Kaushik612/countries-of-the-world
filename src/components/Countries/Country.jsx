@@ -35,7 +35,7 @@ const Country = ({countries}) => {
                 <List spacing={3}>
                 <ListItem>
                     <ListIcon as={CheckCircleIcon} color='green.500' />
-                <Text as="span">Population :</Text> {country.population}
+                <Text as="span">Population :</Text> {(country?.population).toLocaleString()}
                 </ListItem>
                 <ListItem>
                     <ListIcon as={CheckCircleIcon} color='green.500' />

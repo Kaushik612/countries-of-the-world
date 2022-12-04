@@ -20,6 +20,7 @@ const theme = extendTheme(
           },
           "div":{
             color: props.colorMode === "dark" ? "hsl(0, 0%, 100%)" : "hsl(200, 15%, 8%)",
+            fontSize: "20px",
           },
           "button":{
             color: props.colorMode === "dark" ? "hsl(0, 0%, 100%)" : "hsl(200, 15%, 8%)"

@@ -59,7 +59,7 @@ const CountryDetails = () => {
                 </ListItem>
                 <ListItem>
                     <ListIcon as={CheckCircleIcon} color='green.500' />
-                    <Text as="span">Population :</Text> <Text as="div" display={"inline-block"}>{country?.population}</Text>
+                    <Text as="span">Population :</Text> <Text as="div" display={"inline-block"}>{(country?.population).toLocaleString()}</Text>
                 </ListItem>
                 <ListItem>
                     <ListIcon as={CheckCircleIcon} color='green.500' />
